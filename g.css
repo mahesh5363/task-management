@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('C: \Users\kotav\Downloads\mourya-pranay-EwawqhV2Doc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+        
+}
+
+header {
+    background-color: #74356f;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #b7bcb8;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: rgb(2, 14, 17);
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color :rgb(30, 252, 167);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-item span {
+    flex-grow: 1;
+}
+
+.add-task-btn {
+    display: block;
+    background-color: #664caf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
